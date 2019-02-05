@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testng Cucumber Suite" parallel="none" thread-count="2" verbose="10">
+ 
+  <!-- <test name="Run All Tests">
+  <classes>
+  <class name="runner.TestNGRunner1"></class>
+  <class name="runner.TestNGRunner2"></class>
+  <class name="main.AnotherRunner"></class> This class could be used to run multiple runner classes
+  </classes>
+  </test> Test  -->
+  <test name="Runner1">
+<parameter name="url" value="siteRunner1" />
+<classes>
+<class name="runner.TestNGRunner1">
+</class>
+</classes>
+</test>
+<test name="Runner2">
+<parameter name="url" value="siteRunner2" />
+<classes>
+<class name="runner.TestNGRunner2">
+</class>
+</classes>
+</test>
+</suite> <!-- Suite -->

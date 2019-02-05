@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Testng Cucumber Suite]">
+  <test verbose="10" name="Runner1(failed)">
+    <parameter name="url" value="siteRunner1"/>
+    <classes>
+      <class name="runner.TestNGRunner1">
+        <methods>
+          <include name="afterClass"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0 1 2"/>
+          <include name="setUp"/>
+          <include name="quit"/>
+          <include name="beforeClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.TestNGRunner1 -->
+    </classes>
+  </test> <!-- Runner1(failed) -->
+</suite> <!-- Failed suite [Testng Cucumber Suite] -->

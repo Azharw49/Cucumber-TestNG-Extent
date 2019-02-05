@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testng Cucumber Suite" duration-ms="47468" started-at="2018-08-23T13:12:38Z" finished-at="2018-08-23T13:13:25Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestNGRunner1@23d2a7e8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestNGRunner2@612679d6]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Runner1" duration-ms="22355" started-at="2018-08-23T13:12:38Z" finished-at="2018-08-23T13:13:00Z">
+      <class name="runner.TestNGRunner1">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestNGRunner1@23d2a7e8]" name="setUpClass" is-config="true" duration-ms="262" started-at="2018-08-23T18:42:38Z" finished-at="2018-08-23T18:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:runner.TestNGRunner1@23d2a7e8]" name="beforeClass" is-config="true" duration-ms="13975" started-at="2018-08-23T18:42:38Z" finished-at="2018-08-23T18:42:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[siteRunner1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestNGRunner1@23d2a7e8]" name="feature" duration-ms="2992" started-at="2018-08-23T18:42:52Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-23T18:42:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To search cucumber in google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestNGRunner1@23d2a7e8]" name="feature" duration-ms="2058" started-at="2018-08-23T18:42:55Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-23T18:42:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To search junit in google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestNGRunner1@23d2a7e8]" name="feature" duration-ms="1881" started-at="2018-08-23T18:42:57Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-23T18:42:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To search testng in google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:runner.TestNGRunner1@23d2a7e8]" name="afterClass" is-config="true" duration-ms="659" started-at="2018-08-23T18:42:59Z" finished-at="2018-08-23T18:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestNGRunner1@23d2a7e8]" name="tearDownClass" is-config="true" duration-ms="405" started-at="2018-08-23T18:43:00Z" finished-at="2018-08-23T18:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestNGRunner1 -->
+    </test> <!-- Runner1 -->
+    <test name="Runner2" duration-ms="25088" started-at="2018-08-23T13:13:00Z" finished-at="2018-08-23T13:13:25Z">
+      <class name="runner.TestNGRunner2">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestNGRunner2@612679d6]" name="setUpClass" is-config="true" duration-ms="24" started-at="2018-08-23T18:43:00Z" finished-at="2018-08-23T18:43:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:runner.TestNGRunner2@612679d6]" name="beforeClass" is-config="true" duration-ms="16432" started-at="2018-08-23T18:43:00Z" finished-at="2018-08-23T18:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestNGRunner2@612679d6]" name="feature" duration-ms="7917" started-at="2018-08-23T18:43:17Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-08-23T18:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Trello Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:runner.TestNGRunner2@612679d6]" name="afterClass" is-config="true" duration-ms="636" started-at="2018-08-23T18:43:25Z" finished-at="2018-08-23T18:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestNGRunner2@612679d6]" name="tearDownClass" is-config="true" duration-ms="71" started-at="2018-08-23T18:43:25Z" finished-at="2018-08-23T18:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestNGRunner2 -->
+      <class name="runner.TestNGRunner1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runner.TestNGRunner1@23d2a7e8]" name="setUp" is-config="true" duration-ms="29" started-at="2018-08-23T18:42:38Z" finished-at="2018-08-23T18:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runner.TestNGRunner2@612679d6]" name="setUp" is-config="true" duration-ms="1" started-at="2018-08-23T18:42:38Z" finished-at="2018-08-23T18:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:runner.TestNGRunner1@23d2a7e8]" name="quit" is-config="true" duration-ms="45" started-at="2018-08-23T18:43:25Z" finished-at="2018-08-23T18:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:runner.TestNGRunner2@612679d6]" name="quit" is-config="true" duration-ms="2" started-at="2018-08-23T18:43:25Z" finished-at="2018-08-23T18:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- runner.TestNGRunner1 -->
+    </test> <!-- Runner2 -->
+  </suite> <!-- Testng Cucumber Suite -->
+</testng-results>
